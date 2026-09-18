@@ -1,8 +1,8 @@
-Inside virtual environment:
+**Inside virtual environment:**
 
 uv sync --upgrade
 
-Start LangGraph server: 
+**Start LangGraph server: **
 
 langgraph dev --host 0.0.0.0 --allow-blocking
 
