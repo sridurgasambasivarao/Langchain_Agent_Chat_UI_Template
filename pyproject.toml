@@ -1,0 +1,27 @@
+[project]
+name = "langchain-agent-chat-ui-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [    
+    "google-genai>=1.61.0",    
+    "langchain>=1.2.7",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.0",
+    "langchain-google-vertexai>=3.2.1",
+    "langchain-huggingface>=1.2.0",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.7",
+    "langchain-qdrant>=1.1.0",
+    "langgraph>=1.0.7",
+    "langgraph-api>=0.7.13",
+    "langgraph-checkpoint-postgres>=3.0.4",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "langgraph-cli[inmem]>=0.4.12",
+    "langsmith>=0.6.7",
+    "lxml>=6.0.2",   
+    "pydantic>=2.12.5",   
+    "python-dotenv>=1.2.1",
+]
