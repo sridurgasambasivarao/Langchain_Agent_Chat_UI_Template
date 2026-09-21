@@ -4,7 +4,7 @@ uv sync --upgrade
 
 **Start LangGraph server:**
 
-langgraph dev --host 0.0.0.0 --allow-blocking
+uv run langgraph dev --host 0.0.0.0 --allow-blocking
 
 ![alt text](image.png)
 
